@@ -1,0 +1,130 @@
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 65%;
+  
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #FFE5D9;
+  font-family:tahoma;
+  font-size:14px;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 8px 16px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+li a:hover {
+  background-color: #FFEBEB;
+  color: solid black;
+}
+
+.cover {
+  height: 150px;
+  width: 150px;
+  margin: 20px;
+}
+
+.coverost {
+  height: 200px;
+  width: 200px;
+  margin: 10px;
+  text-align: center;
+}
+
+h2 {
+  margin: 15px 15px 0px 15px;
+  text-align: center;
+}
+
+p {
+  margin: 15px 15px 15px 15px;
+  font-size: 14px;
+}
+
+iframe {
+  margin: 15px   
+}
+
+.ScrollStyle
+{
+    max-height: 220px;
+    overflow-y: scroll;
+    text-align: center;
+}
+
+.fbsprite {
+	background: url('../images/socmed.png') no-repeat -379px -399px;
+	width: 51px;
+	height: 51px;
+}
+
+.igsprite {
+	background: url('../images/socmed.png') no-repeat -287px -400px;
+	width: 51px;
+	height: 51px;
+}
+
+.ytsprite {
+	background: url('../images/socmed.png') no-repeat -170px -400px;
+	width: 63px;
+	height: 51px;
+}
+
+.twtsprite {
+	background: url('../images/socmed.png') no-repeat -64px -399px;
+	width: 51px;
+	height: 51px;
+}
+
+.fbsprite:hover {
+	background: url('../images/socmed.png') no-repeat -379px -293px;
+	width: 51px;
+	height: 51px;
+}
+
+.igsprite:hover {
+	background: url('../images/socmed.png') no-repeat -287px -293px;
+	width: 51px;
+	height: 51px;
+}
+
+.ytsprite:hover {
+	background: url('../images/socmed.png') no-repeat -170px -293px;
+	width: 63px;
+	height: 51px;
+}
+
+.twtsprite:hover {
+	background: url('../images/socmed.png') no-repeat -64px -293px;
+	width: 51px;
+	height: 51px;
+}
+
+
+#sprite {
+    border: none;
+    float: right;
+}
+
+body {
+    font-family: monospace;
+    font-size: 18px;
+}
+
+
